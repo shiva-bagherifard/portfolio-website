@@ -1,0 +1,81 @@
+
+:root {
+    --color-bg: #e6d8eb;
+    --color-text: #030303;
+    --color-link: #784bd6;
+    --color-link-hover: #71c8f0;
+    --color-primary: #3d0264;
+    --color-secondary: #994eca;
+    --color-project: #703766;
+    --color-white: #ffffff;
+    --font-size-base: 18px;
+    --font-size-h1-h2: 50px;
+    --font-size-h5: 27px;
+  }
+  
+  /* Apply variables */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text);
+    font-size: var(--font-size-base);
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  a {
+    color: var(--color-link);
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: var(--color-link-hover);
+  }
+  
+  h1, h2 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-size: var(--font-size-h1-h2);
+  }
+  
+  h5 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-size: var(--font-size-h5);
+  }
+  
+  .my-photo {
+    height: 250px;
+  }
+  
+  .btn-custom {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transition-duration: 0.5s;
+  }
+  
+  .btn-custom:hover, .btn-custom:focus {
+    background-color: var(--color-secondary);
+  }
+  
+  .Project {
+    background-color: var(--color-project);
+    color: #f0ebf1;
+  }
+  
+  .card-animation {
+    transition: all 0.5s;
+  }
+  
+  .card-animation:hover {
+    transform: scale(1.05);
+  }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page favicon -->
+    <link rel="shortcut icon" href="img/fav_icon.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- css and bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <!-- page title -->
+    <title>Shivabagherifard - Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/fav_icon.png" class="logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="my-work.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="my-5 py-5">
+       <div class="container py-5">
+          <div>
+            <h1 class="fs-1">Contact</h1>
+          </div>
+          <div class="py-3">
+            <p>Shiva Bagherifard<br>
+            Germany,lörrach</p>
+          </div>
+          <div class="py-3">
+              Tel: <a href="tel:+49 1575 0101811 aria-label="telephone">+49 1575 0101811</a><br>
+              Skype: <a href="https://join.skype.com/invite/NBkuZAmvfypq aria-label="skype"> Shiva Bagherifard</a><br>
+              Email: <a href="mailto:shivabagheri1987@gmail.com aria-label="email">shivabagheri1987@gmail.com</a>
+          </div>
+          <br>
+          <div>
+            <a href="mailto:shivabagheri1987@gmail.com" class="btn btn-custom rounded-pill">Contact me</a>
+          </div>
+       </div>
+       <div class="container">
+        <form class="w-25" action="#" method="post" id="contact-form">
+            <div class="mb-3">
+                <label for="contact_name" class="form-label">Name *</label>
+                <input type="text" class="form-control" id="contact_name" required>
+            </div>
+            <div class="mb-3">
+                <label for="contact_email" class="form-label">Email: *</label>
+                <input type="email" class="form-control" id="contact_email" required>
+            </div>
+            <div class="mb-3">
+                <label for="contact_tel" class="form-label">Telephone:</label>
+                <input type="tel" class="form-control" id="contact_tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            </div>
+            <div class="mb-3">
+                <label for="contact_message" class="form-label">Message (maximum 200 characters):</label>
+                <textarea class="form-control" maxlength="200" id="contact_message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom rounded-pill my-4">Send message</button>
+        </form>
+       </div>
+
+    </section>
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <div class="row justify-content-center pb-2">
+                <div class="col">
+                    <p>Find me on</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <a href="https://github.com/shiva-bagherifard"><img src="img/github.svg" alt="Github" class="img-fluid mx-2" style="max-width: 30px;"></a>
+                    <a href="https://www.linkedin.com/in/shiva-bagherifard"><img src="img/linkedin.svg" alt="LinkedIn" class="img-fluid mx-2" style="max-width: 30px;"></a>
+                </div>
+            </div>
+            <div class="row justify-content-center py-4">
+                <div class="col">
+                    <a href="#" class="mt-3">Back to top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tota11y.min.js"></script>
+</body>
+</html>

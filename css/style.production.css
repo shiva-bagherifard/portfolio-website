@@ -1,0 +1,84 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e6d8eb;
+    font-family: 'Poppins', sans-serif;
+    color: #030303;
+    font-size: 18px;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  a {
+    color: #784bd6;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #71c8f0;
+  }
+  
+  h1 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  
+  h5 {
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-size: 27px;
+  }
+  
+  .my-photo {
+    height: 250px;
+  }
+  
+  .btn-custom {
+    background-color: #3d0264;
+    color: #ffffff;
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  
+  .btn-custom:hover {
+    background-color: #994eca;
+  }
+  
+  .btn-custom:focus {
+    background-color: #994eca;
+  }
+  
+  .Project {
+    background-color: #703766;
+    color: #f0ebf1;
+  }
+  
+  .card-animation {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .card-animation:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+  }
