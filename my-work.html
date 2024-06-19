@@ -15,6 +15,27 @@
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
     <!-- page title -->
     <title>Shivabagherifard - Portfolio</title>
+    <style>
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-body {
+            height: 500px; /* Adjust this value as needed */
+            display: flex;
+            flex-direction: column;
+        }
+        .card-title {
+            margin-bottom: 10px;
+        }
+        .card-text {
+            flex-grow: 1;
+            margin-bottom: 10px;
+        }
+        .card-link {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -48,66 +69,43 @@
     <section class="my-5 py-5">
         <div class="container">
             <h1 class="text-center fs-1 py-5">My Work</h1>
-            <div class="row gy-4 row-cols-1 row-cols-sm-1 row-cols-md-3">
+            <div class="row gy-4 row-cols-1 row-cols-sm-1 row-cols-md-3 text-center h-100">
                <div class="col card-animation">
                   <div class="card">
                       <div class="card-body Project rounded">
-                        <h5 class="card-title py-3">Project 1</h5>
-                        <p class="card-text py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a volutpat augue. Nunc id est dui.</p>
-                        <a href="#" class="card-link text-decoration-none text-warning text-opacity-75">See project</a>
+                        <h6 class="card-title">Pokédex</h6>
+                        <img src="img/project1.png" alt="Project 1" class="img-fluid">
+                        <p class="card-text">This App fetchs all 150 pokemon and lists them, clicking a pokemon will bring up a modal with basic info about the pokemon. The background color of the modal will reflect the type of Pokemon which was clicked on.</p>
+                        <a href="https://shiva-bagherifard.github.io/simple-js-app/" class="card-link text-decoration-none text-warning text-opacity-75">View Pokédex</a>
+                        <a href="https://github.com/shiva-bagherifard/simple-js-app" class="card-link text-decoration-none text-warning text-opacity-75">GitHub Repository</a>
                       </div>
                    </div>
                </div>
                <div class="col card-animation">
                  <div class="card">
                      <div class="card-body Project rounded">
-                       <h5 class="card-title py-3">Project 2</h5>
-                       <p class="card-text py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a volutpat augue. Nunc id est dui.</p>
-                       <a href="#" class="card-link text-decoration-none text-warning text-opacity-75">See project</a>
+                       <h6 class="card-title">MyFlix</h6>
+                       <img src="img/project2.png" alt="Project 2" class="img-fluid">
+                       <p class="card-text">The front-end of an app called 'myFlix' which makes use of an externally hosted NOSQL database, a custom API which serves the database, and a front-end portion, made with React and Javascript.</p>
+                       <a href="https://ourfilmhub.netlify.app/login" class="card-link text-decoration-none text-warning text-opacity-75">View MyFlix</a>
+                       <a href="https://github.com/shiva-bagherifard/myFlix-client" class="card-link text-decoration-none text-warning text-opacity-75">GitHub Repository</a>
                      </div>
                   </div>
                </div>
                <div class="col card-animation">
                    <div class="card">
                       <div class="card-body Project rounded">
-                        <h5 class="card-title py-3">Project 3</h5>
-                        <p class="card-text py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a volutpat augue. Nunc id est dui.</p>
-                        <a href="#" class="card-link text-decoration-none text-warning text-opacity-75">See project</a>
+                        <h6 class="card-title">Meet</h6>
+                        <img src="img/project3.png" alt="Project 3" class="img-fluid">
+                        <p class="card-text">A serverless, progressive web application (PWA) built with React using test-driven development (TDD). It fetches upcoming events from the Google Calendar API, displaying them in list, pie, and plot chart formats. Dependencies include React, JavaScript, Recharts, and GH-Pages.</p>
+                        <a href="https://shiva-bagherifard.github.io/meet/" class="card-link text-decoration-none text-warning text-opacity-75">View Meet</a>
+                        <a href="https://github.com/shiva-bagherifard/meet" class="card-link text-decoration-none text-warning text-opacity-75">GitHub Repository</a>
                       </div>
                    </div> 
                </div>
             </div>
-            <div class="row gy-4 row-cols-1 row-cols-sm-1 row-cols-md-3 mt-2">
-                <div class="col card-animation">
-                    <div class="card">
-                        <div class="card-body Project rounded">
-                          <h5 class="card-title py-3">Project 4</h5>
-                          <p class="card-text py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a volutpat augue. Nunc id est dui.</p>
-                          <a href="#" class="card-link text-decoration-none text-warning text-opacity-75">See project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col card-animation">
-                    <div class="card">
-                        <div class="card-body Project rounded">
-                          <h5 class="card-title py-3">Project 5</h5>
-                          <p class="card-text py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a volutpat augue. Nunc id est dui.</p>
-                          <a href="#" class="card-link text-decoration-none text-warning text-opacity-75">See project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col card-animation">
-                    <div class="card">
-                        <div class="card-body Project rounded">
-                          <h5 class="card-title py-3">Project 6</h5>
-                          <p class="card-text py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a volutpat augue. Nunc id est dui.</p>
-                          <a href="#" class="card-link text-decoration-none text-warning text-opacity-75">See project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
-
     </section>
     <footer class="footer mt-auto py-3">
         <div class="container text-center">
@@ -129,8 +127,6 @@
             </div>
         </div>
     </footer>
-    
-
     
     <!-- bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
